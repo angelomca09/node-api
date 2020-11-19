@@ -1,0 +1,14 @@
+GET http://localhost:8081/file
+
+###
+
+POST http://localhost:8081/file
+Content-Type: application/json
+
+{
+    "content":"\nZezin lindo"
+}
+
+###
+
+GET http://localhost:8081/file/reset
