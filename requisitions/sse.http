@@ -1,0 +1,14 @@
+GET http://localhost:8081/sse/status
+
+###
+
+POST http://localhost:8081/sse/nest
+Content-Type: application/json
+
+{
+    "msg": "Teste"
+}
+
+###
+
+GET http://localhost:8081/sse/events
